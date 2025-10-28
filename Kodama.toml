@@ -1,7 +1,7 @@
 [kodama]
 trees = "trees"
 assets = "assets"
-base-url = "/"
+base-url = "/forest-notes/"
 
 [toc]
 placement = "right"
