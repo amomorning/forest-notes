@@ -1,0 +1,16 @@
+#import "_lib/kodama.typ": *
+
+#meta("title", "Amo's blog")
+#meta("author", "Yichen Mo")
+#meta("date", "2025-10-28")
+
+// 正文内容
+== lorem
+#lorem(32)
+
+= aaaa
+
+// 通过相对路径嵌入 about.md 文件示例
+#embed("./about.md", "About Amo", numbering: true)
+
+
